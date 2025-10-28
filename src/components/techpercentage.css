@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#java{
+    width: 80%;
+}
+#webtech{
+    width: 85%;
+}
+#python{
+    width: 55%;
+}
+#php{
+    width: 50%;
+}
+#react{
+    width: 65%;
+}
+#bootstrap{
+    width: 78%;
+}
+#telwind{
+    width: 66%;
+}
+#sql{
+    width: 90%;
+}
+#mysql{
+    width: 72%;
+}
+#firebase{
+    width: 40%;
+}
+#github{
+    width: 58%;
+}
+#netlify{
+    width: 74%;
+}
+#vscode{
+    width: 89%;
+}
+#figma{
+    width: 81%;
+}
+#canva{
+    width: 76%;
+}
