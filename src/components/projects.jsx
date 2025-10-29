@@ -176,7 +176,7 @@ export default function Project({projectTitle}) {
             </p>
             <div className="article-link">
               GitHub repo: 
-              <a href="https://github.com/Debashish-Sahu-cs/Java-console-based-Tic-Tac-Toe-game" aria-label="java banking system github repo" target="_blank" className="highlighted" rel="noopener noreferrer"> Banking management System</a>
+              <a href="https://github.com/Debashish-Sahu-cs/banking-system-in-java" aria-label="java banking system github repo" target="_blank" className="highlighted" rel="noopener noreferrer"> Banking management System</a>
             </div>
 
           </article>
