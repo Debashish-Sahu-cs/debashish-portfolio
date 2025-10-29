@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
 
         <div className="hero-right">
-          <div className="floating-card" ><img src={debaimg} alt="Deba Image" id="my-img" /></div>
+          <div className="floating-card" ><img src={debaimg} alt="Debashish Portrait" id="my-img" /></div>
         </div>
       </div>
     </section>
