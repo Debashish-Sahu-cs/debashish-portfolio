@@ -247,7 +247,7 @@ body {
       #919191 95%,
       #9a9a9a 100%
     ),
-    url("images/background-image.webp") 100%;
+    url("/images/background-image.webp") 100%;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;

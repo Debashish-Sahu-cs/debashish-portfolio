@@ -43,7 +43,7 @@ export default function Project({projectTitle}) {
         <SwiperSlide>
           <article className="proj-card" id="tattoo-website">
             <div className="proj-screenshot">
-              <img src="src/images/tattoo-website-pc.webp"  loading="lazy" decoding="async" alt="Tattoo Website" className="proj-img" />
+              <img src="public/images/tattoo-website-pc.webp"  loading="lazy" decoding="async" alt="Tattoo Website" className="proj-img" />
             </div>
             <div className="article-heading">
               <h2>
@@ -66,7 +66,7 @@ export default function Project({projectTitle}) {
         <SwiperSlide>
           <article className="proj-card" id="weather-app" >
             <div className="proj-screenshot">
-              <img src="src/images/weather-pc.webp"    loading="lazy" decoding="async" alt="Weather App" className="proj-img" />
+              <img src="public/images/weather-pc.webp"    loading="lazy" decoding="async" alt="Weather App" className="proj-img" />
             </div>
             <div className="article-heading">
               <h2>
@@ -90,7 +90,7 @@ export default function Project({projectTitle}) {
         <SwiperSlide>
           <article className="proj-card" id="samaro-clone">
             <div className="proj-screenshot">
-              <img src="src/images/Samaro-clone.webp"  loading="lazy" decoding="async" alt="Samaro Clone" className="proj-img" />
+              <img src="public/images/Samaro-clone.webp"  loading="lazy" decoding="async" alt="Samaro Clone" className="proj-img" />
             </div>
             <div className="article-heading">
               <h2>
@@ -114,7 +114,7 @@ export default function Project({projectTitle}) {
         <SwiperSlide>
           <article className="proj-card" id="product-management" >
             <div className="proj-screenshot">
-              <img src="src/images/Presentation2.webp"    loading="lazy" decoding="async" alt="Product Management" className="proj-img" />
+              <img src="public/images/Presentation2.webp"    loading="lazy" decoding="async" alt="Product Management" className="proj-img" />
             </div>
             <div className="article-heading">
               <h2>
@@ -137,7 +137,7 @@ export default function Project({projectTitle}) {
         <SwiperSlide>
           <article className="proj-card" id="tic-tac-toe" >
             <div className="proj-screenshot">
-              <img src="src/images/tic-tac-toe.webp"    loading="lazy" decoding="async" alt="Tic-Tac-Toe Game" className="proj-img" />
+              <img src="public/images/tic-tac-toe.webp"    loading="lazy" decoding="async" alt="Tic-Tac-Toe Game" className="proj-img" />
             </div>
             <div className="article-heading">
               <h2>
@@ -160,7 +160,7 @@ export default function Project({projectTitle}) {
         <SwiperSlide>
           <article className="proj-card" id="banking-system">
             <div className="proj-screenshot">
-              <img src="src/images/bankingsystem.webp"    loading="lazy" decoding="async" alt="Banking System" className="proj-img" />
+              <img src="public/images/bankingsystem.webp"    loading="lazy" decoding="async" alt="Banking System" className="proj-img" />
             </div>
             <div className="article-heading">
               <h2>

@@ -26,10 +26,10 @@ export default function Achievements({achivementHeader}) {
             <div className="ach-image">
                 <div className="ach-mockup">
                     <div className="mock-desktop">
-                        <img src="src/images/tattoo-website-pc.webp"   loading="lazy" decoding="async" alt="Tattoo website view in PC " className="ach-inner-img" />
+                        <img src="public/images/tattoo-website-pc.webp"   loading="lazy" decoding="async" alt="Tattoo website view in PC " className="ach-inner-img" />
                     </div>
                     <div className="mock-mobile">
-                        <img src="src/images/tattoo-website-mobile.webp"   loading="lazy" decoding="async" alt="Tattoo website view in mobile" className="ach-inner-img" />
+                        <img src="public/images/tattoo-website-mobile.webp"   loading="lazy" decoding="async" alt="Tattoo website view in mobile" className="ach-inner-img" />
                     </div>
                 </div>
             </div>
@@ -40,10 +40,10 @@ export default function Achievements({achivementHeader}) {
             <div className="ach-image">
                 <div className="ach-mockup">
                 <div className="mock-desktop">
-                    <img src="src/images/portfolio-pc.webp"   loading="lazy" decoding="async" alt="Portfolio website view in PC" className="ach-inner-img" />
+                    <img src="public/images/portfolio-pc.webp"   loading="lazy" decoding="async" alt="Portfolio website view in PC" className="ach-inner-img" />
                 </div>
                 <div className="mock-mobile">
-                    <img src="src/images/portfolio-mobile.webp"   loading="lazy" decoding="async" alt="Portfolio website view in mobile" className="ach-inner-img" />
+                    <img src="public/images/portfolio-mobile.webp"   loading="lazy" decoding="async" alt="Portfolio website view in mobile" className="ach-inner-img" />
                 </div>
                 </div>
             </div>
