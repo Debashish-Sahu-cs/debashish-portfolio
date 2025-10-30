@@ -82,11 +82,36 @@ export default function Project({projectTitle}) {
             </p>
             <div className="article-link">
               Live on: 
-              <a href="https://weather-app-by-deba.netlify.app/" aria-label="weather app link" target="_blank" className="highlighted" rel="noopener noreferrer"> weather-app-by-deba</a>
+              <a href="https://weather-app-by-deba.netlify.app/" aria-label="weather app link" target="_blank" className="highlighted" rel="noopener noreferrer"> weather-app-by-deba.netlify.app</a>
             </div>
 
           </article>
         </SwiperSlide>
+        <SwiperSlide>
+          <article className="proj-card" id="expense-tracker" >
+            <div className="proj-screenshot">
+              <img src={import.meta.env.BASE_URL + "images/expense-tracker.webp"}    loading="lazy" decoding="async" alt="Weather App" className="proj-img" />
+            </div>
+            <div className="article-heading">
+              <h2>
+                Expense Tracker 
+              </h2>
+            </div>
+            <p className="article-decsription">
+                - Expense tracker where you can add, view, delete your daily expenses. Also you can see the summary 
+                of you expenses category vise. Used <span className="highlighted">JSON</span> to store data so the data will be as it is even after you refresh the page.
+
+                <br />
+                <span className="highlighted">Tech used:</span> HTML, CSS, JS.
+            </p>
+            <div className="article-link">
+              Live on: 
+              <a href="https://expense-tracker-by-deba.netlify.app/" aria-label="weather app link" target="_blank" className="highlighted" rel="noopener noreferrer"> expense-tracker-by-deba.netlify.app</a>
+            </div>
+
+          </article>
+        </SwiperSlide>
+
         <SwiperSlide>
           <article className="proj-card" id="samaro-clone">
             <div className="proj-screenshot">

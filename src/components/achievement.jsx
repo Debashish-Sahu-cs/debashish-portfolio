@@ -35,7 +35,7 @@ export default function Achievements({achivementHeader}) {
             </div>
             </article>
 
-            {/*  Row 2  */}
+             {/* Row 2 
             <article className="ach-row">
             <div className="ach-image">
                 <div className="ach-mockup">
@@ -60,7 +60,7 @@ export default function Achievements({achivementHeader}) {
                     - It also reflects my ability to design clean layouts, implement animations, and structure a professional web presence that represents my personal brand effectively.
                 </p>
             </div>
-            </article>
+            </article> */}
         </div>
         </section>
           )
