@@ -1731,6 +1731,10 @@ button {
   padding: 0;
 }
 
+.link-columns ul li{
+  padding: 5px 0;
+}
+
 .link-columns a {
   color: #f5f5f5;
   text-decoration: none;

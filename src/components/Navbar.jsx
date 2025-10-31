@@ -14,7 +14,7 @@ export default function Navbar() {
         <a aria-label="projects" href="#projects" onClick={()=> setIsOpen(!isOpen)} >Projects</a>
         <a aria-label="achievements" href="#achievements" onClick={()=> setIsOpen(!isOpen)} >Achievements</a>
         <a aria-label="contact" href="#contact" onClick={()=> setIsOpen(!isOpen)} >Contact</a>
-        <a aria-label="resume" href="http://deba-resume.netlify.app" target="_blank" onClick={()=> setIsOpen(!isOpen)} >Resume</a>
+        <a aria-label="resume" href={import.meta.env.BASE_URL + "deba-resume.pdf"} target="_blank" onClick={()=> setIsOpen(!isOpen)} >Resume</a>
       </nav>
 
       <div className="cta">
