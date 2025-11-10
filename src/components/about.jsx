@@ -1,15 +1,11 @@
 import React from "react";
-export default function About({aboutHeader}){
+import SectionHeading from "./heading";
+export default function About({aboutTitle}){
     return (
     <section className="about-section" id="about">
   <div className="about-inner">
-
-    <header className="section-header">
-      <h2>{aboutHeader}</h2>
-      <div className="section-header-underline"></div>
-    </header>
+      <SectionHeading sectionHeader={aboutTitle} />
     <div className="about-grid">
-
         <div className="about-box-wrap left" id="intro">
           <div className="about-box" tabIndex="0" ><img src={import.meta.env.BASE_URL+"images/intro.svg"}   loading="lazy" decoding="async" alt="Introduction " className="about-box-icons" /></div>
         </div>
@@ -24,7 +20,6 @@ export default function About({aboutHeader}){
             with <span className="highlighted">startups</span>  and <span className="highlighted">businesses</span>  to bring their digital ideas to life.
           </p>
         </div>
-
         <div className="about-text-wrap left" id="skill-text">
           <p className="about-text">
             - <span className="highlighted">Frontend:</span>HTML, CSS, JavaScript, React
@@ -45,9 +40,6 @@ export default function About({aboutHeader}){
         <div className="about-box-wrap right" id="skill">
           <div className="about-box" tabIndex="0" ><img src={import.meta.env.BASE_URL+"images/skills.webp"}   loading="lazy" decoding="async" alt="Skills" className="about-box-icons" /></div>
         </div>
-
-
-
         <div className="about-box-wrap left" id="passion">
           <div className="about-box" tabIndex="0"><img src={import.meta.env.BASE_URL+"images/passion.webp"}  loading="lazy" decoding="async" alt="Passion" className="about-box-icons" /></div>
         </div>
@@ -62,7 +54,6 @@ export default function About({aboutHeader}){
             - My goal is to keep learning, building, and growing as a <span className="highlighted">full stack</span> and <span className="highlighted">Java</span> developer.
           </p>
         </div>
-
         <div className="about-text-wrap left" id="hobbie-text">
           <p className="about-text">
             - Outside of coding, I enjoy <span className="highlighted">sketching</span>, <span className="highlighted">painting</span>, and <span className="highlighted">drawing</span>  — art helps me think <span className="highlighted">creatively</span> and improves my sense of <span className="highlighted">design</span> and <span className="highlighted">color</span>, which I apply to <span className="highlighted">UI</span>  development. 
@@ -73,12 +64,8 @@ export default function About({aboutHeader}){
         <div className="about-box-wrap right" id="hobbie">
           <div className="about-box" tabIndex="0"><img src={import.meta.env.BASE_URL+"images/hobbies.webp"}   loading="lazy" decoding="async" alt="Hobbies" className="about-box-icons" /></div>
         </div>
-
     </div> 
-    {/*  /.about-grid  */}
-
   </div> 
-  {/*  /.about-inner  */}
 </section>
     )
 }

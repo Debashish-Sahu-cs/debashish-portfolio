@@ -13,12 +13,12 @@ export default function App() {
       <Navbar />
       <main>
       <Hero />
-        <About aboutHeader = "<About Me/>"/>
+        <About aboutTitle = "<About Me/>"/>
         <TechStack techTitle = "<Tech Stack/>"/>
         <Projects projectTitle = "<Projects/>" />
-        <Achievements achivementHeader="<Achievements/>" />
-        < Education educationHeader="<Education/>" />
-        <Footer />
+        <Achievements achivementTitle="<Achievements/>" />
+        <Education educationTitle="<Education/>" />
+        <Footer contactTitle="<Contact/>"/>
       </main>
     </div>
   );

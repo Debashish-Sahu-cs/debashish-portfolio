@@ -1,6 +1,3 @@
-/* Basic & fonts */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Bebas+Neue&display=swap");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 :root {
   --bg-dark: #1f1f21;
   --bg-mid: #6f6d6b;
@@ -1731,7 +1728,7 @@ button {
   padding: 0;
 }
 
-.link-columns ul li{
+.link-columns ul li {
   padding: 5px 0;
 }
 

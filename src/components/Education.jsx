@@ -1,13 +1,10 @@
 import React from "react";
-export default function Education({educationHeader}) {
+import SectionHeading from "./heading";
+export default function Education({educationTitle}) {
   return (
         <section className="education" id="education">
             <div className="education-inner">
-                <header className="section-header">
-                <h2>{educationHeader}</h2>
-                <div className="section-header-underline"></div>
-                </header>
-
+                <SectionHeading sectionHeader={educationTitle} />
                 <div className="edu-content">
 
                 <div className="edu-body">

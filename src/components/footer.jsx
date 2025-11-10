@@ -1,5 +1,6 @@
 import React from "react";
-export default function Footer() {
+import SectionHeading from "./heading";
+export default function Footer({contactTitle}) {
   return (
     <footer className="footer">
       <div className="footer-container" id="footer">
@@ -37,10 +38,7 @@ export default function Footer() {
         </div>
           {/* Contact Form */}
         <div className="footer-contact" id="contact">
-            <header className="section-header">
-                <h2>&lt;Contact/&gt;</h2>
-            <div className="section-header-underline"></div>
-            </header>
+            <SectionHeading sectionHeader={contactTitle} />
           <form className="contact-form" action="https://formspree.io/f/mrbobggv" method="POST">
             <div className="input-group">
               <label htmlFor="name">Name</label>

@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import SectionHeading from "./heading";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -13,10 +14,7 @@ import { EffectCoverflow, Navigation, Pagination, Autoplay } from 'swiper/module
 export default function Project({projectTitle}) {
   return (
     <section className="projects" id="projects">
-      <header className="section-header">
-      <h2>{projectTitle}</h2>
-      <div className="section-header-underline"></div>
-    </header>
+      <SectionHeading sectionHeader={projectTitle} />
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
